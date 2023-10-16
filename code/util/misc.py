@@ -23,7 +23,9 @@ from pathlib import Path
 
 import torch
 import torch.distributed as dist
-from torch._six import inf
+# from torch._six import inf
+from torch import inf
+
 from .modeling_discrete_vae import Dalle_VAE, DiscreteVAE
 
 from tensorboardX import SummaryWriter
